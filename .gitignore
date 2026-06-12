@@ -1,0 +1,17 @@
+# Your data + index — never commit
+knowledge.db
+chroma_db/
+pdfs/
+*.pdf
+
+# Build artifacts
+build/
+dist/
+*.spec
+src-tauri/target/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
